@@ -28,7 +28,7 @@ The following models were trained on the same training set and evaluated on the 
 ---
 
 ## Model Comparison Table (Evaluation Metrics)
-| ML Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.9012 | 0.9056 | 0.6445 | 0.3478 | 0.4518 | 0.4261 |
 | Decision Tree | 0.8746 | 0.7015 | 0.4649 | 0.4754 | 0.4701 | 0.3990 |
@@ -40,7 +40,7 @@ The following models were trained on the same training set and evaluated on the 
 ---
 
 ## Observations (Model-wise)
-| Model | Observation |
+| ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Strong baseline with good AUC (0.9056) and precision (0.6445), but lower recall (0.3478). This indicates it is conservative in predicting the positive class (subscription). |
 | Decision Tree | Balanced precision/recall compared to LR and KNN, but noticeably lower AUC (0.7015). This suggests overfitting or weaker ranking ability on probabilities. |
@@ -72,4 +72,5 @@ The following models were trained on the same training set and evaluated on the 
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
 
