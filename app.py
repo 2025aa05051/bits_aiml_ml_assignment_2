@@ -18,11 +18,11 @@ from sklearn.metrics import (
 # Streamlit page config
 # -------------------------------------------------
 st.set_page_config(
-    page_title="ML Assignment 2 - Bank Marketing",
+    page_title="ML Assignment 2",
     layout="wide"
 )
 
-st.title("ML Assignment 2 – Bank Marketing Classification")
+st.title("ML Assignment 2")
 st.write(
     """
     This Streamlit application demonstrates multiple classification models
@@ -193,3 +193,4 @@ with right:
     # Make it prettier
     report_df = report_df.round(4)
     st.dataframe(report_df, use_container_width=True)
+
