@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import pandas as pd
 import joblib
 #from sklearn.metrics import classification_report
@@ -23,6 +24,22 @@ st.set_page_config(
 )
 
 st.title("ML Assignment 2")
+
+SAMPLE_PATH = "sample/sample_test.csv"
+
+st.subheader("Sample Test CSV")
+st.write("If you don't have a test file, download a sample and upload it back to evaluate the models.")
+
+if os.path.exists(SAMPLE_PATH):
+    with open(SAMPLE_PATH, "rb") as f:
+        st.download_button(
+            label="⬇️ Download Sample Test CSV",
+            data=f,
+            file_name="sample_test.csv",
+            mime="text/csv"
+        )
+else:
+    st.warning("Sample file not found in repo: sample/sample_test.csv")
 st.write(
     """
     This Streamlit application demonstrates multiple classification models

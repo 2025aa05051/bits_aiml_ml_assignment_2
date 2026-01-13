@@ -73,4 +73,10 @@ The following models were trained on the same training set and evaluated on the 
    ```bash
    pip install -r requirements.txt
 
+2. Train All Models :
+   ```bash
+   python -m model.train_all
 
+3. Run Stream Lit App 
+   ```
+   streamlit run app.py
