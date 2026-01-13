@@ -6,7 +6,7 @@ The goal of this project is to build and compare multiple supervised machine lea
 ---
 
 ## Dataset Description
-- **Dataset Name:** Bank Marketing (bank-additional-full)
+- **Dataset Name:** Bank Marketing
 - **Type:** Binary Classification (`y`: yes/no)
 - **Records:** 45,211 instances (public dataset)
 - **Features:** 16 input features (mix of numerical and categorical)
@@ -80,3 +80,4 @@ The following models were trained on the same training set and evaluated on the 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
+
