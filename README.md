@@ -16,7 +16,7 @@ The goal of this project is to build and compare multiple supervised machine lea
 
 ---
 
-## Models Implemented
+## Models used
 The following models were trained on the same training set and evaluated on the same test set:
 1. Logistic Regression
 2. Decision Tree
@@ -82,5 +82,6 @@ The following models were trained on the same training set and evaluated on the 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
+
 
 
