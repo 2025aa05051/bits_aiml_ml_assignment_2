@@ -1,5 +1,4 @@
-# ML Assignment 2 – Bank Marketing Classification
-
+# ML Assignment 2
 ## Problem Statement
 The goal of this project is to build and compare multiple supervised machine learning classification models to predict whether a bank client will subscribe to a term deposit (`y`). The project covers the complete machine learning workflow, including data preprocessing, model training, evaluation using multiple metrics, and deployment of an interactive Streamlit application to demonstrate model performance on uploaded test data.
 
@@ -81,5 +80,6 @@ The following models were trained on the same training dataset and evaluated on 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
+
 
 
