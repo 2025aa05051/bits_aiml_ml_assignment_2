@@ -80,7 +80,3 @@ The following models were trained on the same training dataset and evaluated on 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
-
-
-
-
