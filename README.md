@@ -55,7 +55,7 @@ The following models were trained on the same training set and evaluated on the 
 - `model/` contains separate python files for each model and training orchestration.
 - `model/artifacts/` contains saved trained pipelines for Streamlit inference.
 - `data/test.csv` is generated from the dataset split and is used for Streamlit upload.
-- `datapreperation` contains configuration, preprocessor & metric informations
+- `datapreperation/` contains configuration, preprocessor & metric informations
 - `sample/` contains sample test file for structure understanding of input test file
 
 
@@ -82,6 +82,7 @@ The following models were trained on the same training set and evaluated on the 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
+
 
 
 
