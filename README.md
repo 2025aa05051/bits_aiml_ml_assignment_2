@@ -27,7 +27,7 @@ The following models were trained on the same training dataset and evaluated on 
 ---
 
 ## Model Comparison Table (Evaluation Metrics)
-| ML Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.9012 | 0.9056 | 0.6445 | 0.3478 | 0.4518 | 0.4261 |
 | Decision Tree | 0.8746 | 0.7015 | 0.4649 | 0.4754 | 0.4701 | 0.3990 |
@@ -39,7 +39,7 @@ The following models were trained on the same training dataset and evaluated on 
 ---
 
 ## Observations (Model-wise)
-| ML Model | Observation |
+| ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Provides a strong baseline with good accuracy and AUC, but relatively low recall (0.3478), indicating conservative prediction of positive subscriptions. |
 | Decision Tree | Achieves balanced precision and recall, but lower AUC (0.7015) suggests weaker probability ranking and possible overfitting. |
@@ -80,6 +80,7 @@ The following models were trained on the same training dataset and evaluated on 
 3. Run Stream Lit App 
    ```
    streamlit run app.py
+
 
 
 
